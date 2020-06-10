@@ -1,0 +1,224 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+h1, h2, h3 {
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header h2{
+    color: black;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(0, 17, 255);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+li, p, .description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+/* ul {list-style:none;} */
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.social-links {
+    margin: 20px;
+    
+}
+
+.experience-company{
+    color: rgb(0, 17, 255);
+}
+
+.link {
+    margin: 0px 8px;
+    color: rgb(0, 17, 255);
+}
+
+.body-section {
+    margin: 30px 0;
+}
+
+.section-body, .section-title {
+    margin: 20px 0;
+}
+
+#intro {
+    height: 85vh;
+    /* margin-top: 100px; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
+}
+
+img {
+    width: 40%;
+}
+
+.profile-img {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.profile-hello {
+    text-align: center;
+}
+
+.profile-intro {
+    margin-top: 30px;
+}
+
+.profile-contact {
+    /* text-align: center; */
+    padding-top: 20px;
+}
+
+.profile-available {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experience-date {
+    font-size: 0.8rem;
+}
+
+.available-icon {
+    margin: auto 10px;
+    color: rgb(10, 179, 18)
+}
+
+.available-text {
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(109, 109, 109, 0.274);
+}
+
+.row {
+    padding: 10px 0 10px;
+}
+
+.card-skills {
+    border: 2px rgb(94, 101, 201) solid;
+    background-color: rgb(134, 142, 255);
+    font-size: 0.9rem;
+    padding: 3px;
+    margin: 10px 0px;
+    border-radius: 10%;
+    line-height: 2.5;
+    bottom: 0;
+}
+
+/* .cards-holder {
+    width: 50%; 100% smaller size screen
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} */
+
+.experience-detail {
+    display: none;
+}
+
+.project-links a {
+    margin: 0px 5px;
+}
+
+.project-links {
+    /* text-align: center; */
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 1.5rem 0;
+}
+
+.main-project-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-skill {
+    margin: 10px 0;
+}
+
+.btn-skill:focus, .btn-skill:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border-style: outset !important;
+}
+
+.detail-btn {
+    margin-bottom: 10px;
+}
+
+/* At the top level of your code */
+@media screen and (max-width: 900px){
+    img {
+        width: 50%;
+    }
+
+    body {
+        margin-top: 10%;
+        margin-bottom: 30%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .profile-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .project-links {
+        justify-content: flex-start;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #intro {
+        text-align: center;
+    }
+    .profile-intro span, .profile-contact span {
+        display: none;
+    }
+
+    .profile-available {
+        /* text-align: left; */
+        margin-bottom: 0px;
+    }
+}
+
