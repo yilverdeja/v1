@@ -217,8 +217,16 @@ img {
     }
 
     .profile-available {
-        /* text-align: left; */
         margin-bottom: 0px;
+    }
+
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title-section {
+        text-align: center;
     }
 }
 
