@@ -1,3 +1,13 @@
+$(document).ready(setupTooltips);
+
+function setupTooltips(){
+    $('abbr').attr("data-toggle", "tooltip");
+    $('abbr').attr("data-placement", "bottom");
+    $('dfn').attr("data-toggle", "tooltip");
+    $('dfn').attr("data-placement", "bottom");
+    $('[data-toggle="tooltip"]').tooltip();
+}
+
 function changeImage(){
     // figure out how to not repeat profile images that are currently being displayed
     var rand = Math.floor(Math.random() * 3) + 1;
