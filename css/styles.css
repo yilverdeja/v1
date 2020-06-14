@@ -209,7 +209,7 @@ img {
     }
 }
 
-@media screen and (max-width: 450px), screen and (max-height: 700px), screen and (max-height: 790px) and (max-width: 530px){
+@media screen and (max-width: 450px), screen and (max-height: 580px), screen and (max-height: 750px) and (max-width: 900px){
     #intro {
         text-align: center;
     }
