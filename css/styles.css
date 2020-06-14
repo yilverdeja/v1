@@ -121,7 +121,8 @@ img {
 
 .available-icon {
     margin: auto 10px;
-    color: rgb(10, 179, 18)
+    /* color: rgb(10, 179, 18) */
+    /* color: white; */
 }
 
 .available-text {
