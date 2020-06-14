@@ -30,7 +30,7 @@
 
 </head>
 <body>
-    <header id="intro" class="intro">
+    <section id="intro" class="intro">
         <div class="profile-img">
             <img id="myImg" src="images/profile/profile1.png" alt="Yil Verdeja Profile at Philips Internship" srcset="">
         </div>
@@ -51,8 +51,7 @@
         </div>
 
         
-    </header>
-    
+    </section>
     <section id="background" class="body-section">
         <div class="title-section">
             <h2>Background</h2>
@@ -102,55 +101,77 @@
                     <h3>Test Engineer Intern</h3>
                     <p><a href="http://aisight.de" target="_blank" rel="noopener noreferrer">AiSight</a></p>
                     <p><em>July 2019 - March 2020</em></p>
-                    <button type="button" class="detail-btn btn btn-primary" onclick="toggleExperienceDetail()">Expand</button>
+                    <button type="button" class="btnE1 detail-btn btn btn-primary" onclick="toggleExperience(1)">See Details</button>
                 </div>
                 <div class="col-lg-9">
-                    <ul>
-                        <li>Managed the deployment of nodes:
-                            <div class="experience-detail">
-                                <ul>
-                                    <li>Assembled, tested and deployed up to 50 sensor nodes</li>
-                                    <li>Created a quality control process to test the functionality of each node before installing them in a factory</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>Built a machine to simulate faults:
-                            <div class="experience-detail">
-                                <ul>
-                                    <li>Created and assembled a machine with up to 5 unique faults by coupling an AC motor to a custom-made water pump system</li>
-                                    <li>Used the simulation machine to test the node’s hardware and software capabilities in detecting when a fault occurs and in predicting when a fault will damage the machine</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>Created an arduino-controlled variable frequency drive (VFD)
-                            <div class="experience-detail">
-                                <ul>
-                                    <li>Built a 2-layer PCB using EAGLE to control the speed of a single phase AC motor on the simulation machine</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>Improved the sensor nodes vibration measurement capabilities:
-                            <div class="experience-detail">
-                                <ul>
-                                    <li>Completed various automated tests with the Analog Discovery 2 (AD2) and by comparing the sensor’s output signal with the measurements on the oscilloscope</li>
-                                    <li>Determined the best mounting method to fix the sensors to the machines</li>
-                                    <li>Researched, analyzed and determined the best materials to use to transmit vibrations to the sensor node</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>Directed and produced an installation video that will be used as a reference to a professionally done video.</li>
-                        <li>Set up an environment to do testing on the mechanical shaker
-                            <div class="experience-detail">
-                                <ul>
-                                    <li>Researched and obtained a mechanical shaker to meet the testing needs of the node</li>
-                                    <li>Created an automated testing procedure with the AD2 to test the node and collect data using a frequency sweep</li>
-                                    <li>Built an insulation box to contain the high frequency sounds of the mechanical shaker</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>Managed the lab and its inventory</li>
-                        <li>Participated in daily SCRUM meetings and interviewed potential employees</li>
-                    </ul>
+                    <div class="experience-summary summary1">
+                        <p>My main tasks were to continuously improve the sensor nodes vibration measurement capabilities, to build a machine to simulate faults and to create an installation video</p>
+                        <div class="experience-skills">
+                            <button class="btn-skill btn btn-primary">PCB Design</button>
+                            <button class="btn-skill btn btn-primary">Quality Control</button>
+                            <button class="btn-skill btn btn-primary">Simulation Machine</button>
+                            <button class="btn-skill btn btn-primary">Arduino</button>
+                            <button class="btn-skill btn btn-primary">AD2</button>
+                            <button class="btn-skill btn btn-primary">EAGLE CAD</button>
+                            <button class="btn-skill btn btn-primary">Documentation</button>
+                            <button class="btn-skill btn btn-primary">Research</button>
+                            <button class="btn-skill btn btn-primary">Python</button>
+                            <button class="btn-skill btn btn-primary">C/C++</button>
+                            <button class="btn-skill btn btn-primary">Javascript</button>
+                            <button class="btn-skill btn btn-primary">Inventory Management</button>
+                            <button class="btn-skill btn btn-primary">Mechanical Engineering</button>
+                            <button class="btn-skill btn btn-primary">Filming</button>
+                            <button class="btn-skill btn btn-primary">Soldering</button>
+                        </div>
+                    </div>
+                    <div class="experience-tasks experience1">
+                        <ul>
+                            <li>Managed the deployment of nodes:
+                                <div class="experience-detail">
+                                    <ul>
+                                        <li>Assembled, tested and deployed up to 50 sensor nodes</li>
+                                        <li>Created a quality control process to test the functionality of each node before installing them in a factory</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Built a machine to simulate faults:
+                                <div class="experience-detail">
+                                    <ul>
+                                        <li>Created and assembled a machine with up to 5 unique faults by coupling an AC motor to a custom-made water pump system</li>
+                                        <li>Used the simulation machine to test the node’s hardware and software capabilities in detecting when a fault occurs and in predicting when a fault will damage the machine</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Created an arduino-controlled variable frequency drive (VFD)
+                                <div class="experience-detail">
+                                    <ul>
+                                        <li>Built a 2-layer PCB using EAGLE to control the speed of a single phase AC motor on the simulation machine</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Improved the sensor nodes vibration measurement capabilities:
+                                <div class="experience-detail">
+                                    <ul>
+                                        <li>Completed various automated tests with the Analog Discovery 2 (AD2) and by comparing the sensor’s output signal with the measurements on the oscilloscope</li>
+                                        <li>Determined the best mounting method to fix the sensors to the machines</li>
+                                        <li>Researched, analyzed and determined the best materials to use to transmit vibrations to the sensor node</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Directed and produced an installation video that will be used as a reference to a professionally done video.</li>
+                            <li>Set up an environment to do testing on the mechanical shaker
+                                <div class="experience-detail">
+                                    <ul>
+                                        <li>Researched and obtained a mechanical shaker to meet the testing needs of the node</li>
+                                        <li>Created an automated testing procedure with the AD2 to test the node and collect data using a frequency sweep</li>
+                                        <li>Built an insulation box to contain the high frequency sounds of the mechanical shaker</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>Managed the lab and its inventory</li>
+                            <li>Participated in daily SCRUM meetings and interviewed potential employees</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -159,13 +180,29 @@
                     <h3>Electrical Engineer Intern</h3>
                     <p><a href="https://www.usa.philips.com/healthcare/innovation/research-and-exploration/connected-sensing" target="_blank" rel="noopener noreferrer">Philips, Connected Sensing</a></p>
                     <p><em>May - August 2018</em></p>
+                    <button type="button" class="btnE2 detail-btn btn btn-primary" onclick="toggleExperience(2)">See Details</button>
                 </div>
                 <div class="col-lg-9">
-                    <ul>
-                        <li>Designed a test fixture <abbr title="Printed Circuit Assembly">PCA</abbr> for a wearable biosensor using the DipTrace schematic capture and <abbr title="Printed Circuit Board">PCB</abbr> layout tool</li>
-                        <li>Produced and maintained documentation on the electrical specification requirements and verification protocols of the test fixture PCA, and authored a report on how to test the wearable biosensor for internal defibrillation</li>
-                        <li>Populated multiple test fixture PCB's and troubleshooted each board to verify its functionality</li>
-                    </ul>
+                    <div class="experience-summary summary2">
+                        <p>My main task was to create a circuit board for testing the electronics and firmware of the Philips wearable biosensor</p>
+                        <div class="experience-skills">
+                            <button class="btn-skill btn btn-primary">PCB Design</button>
+                            <button class="btn-skill btn btn-primary">Diptrace</button>
+                            <button class="btn-skill btn btn-primary">Specification Document</button>
+                            <button class="btn-skill btn btn-primary">Test Fixture</button>
+                            <button class="btn-skill btn btn-primary">Verification Protocol</button>
+                            <button class="btn-skill btn btn-primary">Soldering</button>
+                            <button class="btn-skill btn btn-primary">Documentation</button>
+                            <button class="btn-skill btn btn-primary">Research</button>
+                        </div>
+                    </div>
+                    <div class="experience-tasks experience2">
+                        <ul>
+                            <li>Designed a test fixture <abbr title="Printed Circuit Assembly">PCA</abbr> for a wearable biosensor using the DipTrace schematic capture and <abbr title="Printed Circuit Board">PCB</abbr> layout tool</li>
+                            <li>Produced and maintained documentation on the electrical specification requirements and verification protocols of the test fixture PCA, and authored a report on how to test the wearable biosensor for internal defibrillation</li>
+                            <li>Populated multiple test fixture PCB's and troubleshooted each board to verify its functionality</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -174,12 +211,30 @@
                     <h3>Electrical Engineer Senior Tutor</h3>
                     <p><a href="https://www.wpi.edu/academics/departments/electrical-computer-engineering" target="_blank" rel="noopener noreferrer">WPI</a></p>
                     <p><em>March 2018 - May 2019</em></p>
+                    <button type="button" class="btnE3 detail-btn btn btn-primary" onclick="toggleExperience(3)">See Details</button>
                 </div>
                 <div class="col-lg-9">
-                    <ul>
-                        <li>Worked as a senior tutor in the <dfn title="ECE2010. Introduction to Electrical and Computer Engineering">ECE2010</dfn> (D18, D19) and <dfn title="ECE2019. Sensors, Circuits, and Systems">ECE2019</dfn> (A18, C19) course to teach and mentor students in introductory electrical engineering concepts through lab, tutoring and homework</li>
-                        <li>Maintained labs, advised in help sessions and grading</li>
-                    </ul>
+                    <div class="experience-summary summary3">
+                        <p>My main task was to teach, mentor and advise students in the ECE2010 and ECE2019 courses in WPI.</p>
+                        <div class="experience-skills">
+                            <button class="btn-skill btn btn-primary">Tutor</button>
+                            <button class="btn-skill btn btn-primary">Grading</button>
+                            <button class="btn-skill btn btn-primary">Lab Experiments</button>
+                            <button class="btn-skill btn btn-primary">Op Amp Circuits</button>
+                            <button class="btn-skill btn btn-primary">Feedback</button>
+                            <button class="btn-skill btn btn-primary">First Order Transients</button>
+                            <button class="btn-skill btn btn-primary">Circuit Analysis</button>
+                            <button class="btn-skill btn btn-primary">Superposition</button>
+                            <button class="btn-skill btn btn-primary">Filters</button>
+                            <button class="btn-skill btn btn-primary">Transfer Functions</button>
+                        </div>
+                    </div>
+                    <div class="experience-tasks experience3">
+                        <ul>
+                            <li>Worked as a senior tutor in the <dfn title="ECE2010. Introduction to Electrical and Computer Engineering">ECE2010</dfn> (D18, D19) and <dfn title="ECE2019. Sensors, Circuits, and Systems">ECE2019</dfn> (A18, C19) course to teach and mentor students in introductory electrical engineering concepts through lab, tutoring and homework</li>
+                            <li>Maintained labs, advised in help sessions and grading</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
     </section>
@@ -191,12 +246,31 @@
             <div class="container">
                 <div class="row">
                     
-                    <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="col-lg-12 col-md-12 mb-4">
                         <div class="card shawdow-sm h-100">
                             <img class="card-img-top" src="images/projects/nobi1.jpg" alt="">
                             <div class="card-body ">
                                 <h3 class="card-title">Nobi: Wildfire Detection & Prevention Sensor</h3>
                                 <p class="card-text">Wildfires in the United States have always been devastating. Due to the increase of wildfires in California in 2017, our team designed and created the Nobi: a sensor to help detect and prevent wildfires.</p>
+                                <div class="project-skills">
+                                    <button class="btn-skill btn btn-primary">Market Research</button>
+                                    <button class="btn-skill btn btn-primary">Solar</button>
+                                    <button class="btn-skill btn btn-primary">Voltage Regulator</button>
+                                    <button class="btn-skill btn btn-primary">Circuit Design</button>
+                                    <button class="btn-skill btn btn-primary">Block Diagram</button>
+                                    <button class="btn-skill btn btn-primary">Flow Chart</button>
+                                    <button class="btn-skill btn btn-primary">Bluetooth</button>
+                                    <button class="btn-skill btn btn-primary">Mesh Network</button>
+                                    <button class="btn-skill btn btn-primary">ATmega</button>
+                                    <button class="btn-skill btn btn-primary">I2C</button>
+                                    <button class="btn-skill btn btn-primary">SPI</button>
+                                    <button class="btn-skill btn btn-primary">UART</button>
+                                    <button class="btn-skill btn btn-primary">Sourcing</button>
+                                    <button class="btn-skill btn btn-primary">App</button>
+                                    <button class="btn-skill btn btn-primary">Lithium</button>
+                                    <button class="btn-skill btn btn-primary">Energy Harvesting</button>
+                                    <button class="btn-skill btn btn-primary">C/C++</button>
+                                </div>
                             </div>
                             <div class="main-project-links card-footer">
                                 <a class="" href="https://yilverdeja.com/projects/Final_Report_Nobi.pdf" target="_blank" rel="noopener noreferrer" title="Report"><i class="fas fa-file fa-2x"></i></a>
@@ -206,12 +280,25 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="col-lg-12 col-md-12 mb-4">
                         <div class="card shawdow-sm h-100">
                             <img class="card-img-top" src="images/projects/nameOfGame.jpg" alt="">
                             <div class="card-body ">
                                 <h3 class="card-title">Relative Pitch Video Game</h3>
                                 <p class="card-text">To provide an innovative alternative to traditional music learning, our team developed a game-prototype to teach relative pitch to an audience of both musicians and nonmusicians.</p>
+                                <div class="project-skills">
+                                    <button class="btn-skill btn btn-primary">Relative Pitch</button>
+                                    <button class="btn-skill btn btn-primary">Game Design</button>
+                                    <button class="btn-skill btn btn-primary">UI/UX</button>
+                                    <button class="btn-skill btn btn-primary">Java</button>
+                                    <button class="btn-skill btn btn-primary">JavaFX</button>
+                                    <button class="btn-skill btn btn-primary">Model View Controller</button>
+                                    <button class="btn-skill btn btn-primary">OOP</button>
+                                    <button class="btn-skill btn btn-primary">Software Engineering</button>
+                                    <button class="btn-skill btn btn-primary">GUI</button>
+                                    <button class="btn-skill btn btn-primary">Focus Group</button>
+                                    <button class="btn-skill btn btn-primary">Survey</button>
+                                </div>
                             </div>
                             <div class="main-project-links card-footer">
                                 <a class="" href="https://web.wpi.edu/Pubs/E-project/Available/E-project-082517-201905/" target="_blank" rel="noopener noreferrer" title="Report"><i class="fas fa-file fa-2x"></i></a>
@@ -220,12 +307,32 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="col-lg-12 col-md-12 mb-4">
                         <div class="card shawdow-sm h-100">
                             <img class="card-img-top" src="images/projects/mqp_photo1.jpg" alt="">
                             <div class="card-body ">
                                 <h3 class="card-title">FRED: Firefighting Remote Exploration Device</h3>
                                 <p class="card-text">This project uses robotics to provide a real-time heat map of a buildings complex, unpredictable layout to prevent the risk of injury or death for Firefighters.</p>
+                                <div class="project-skills">
+                                    <button class="btn-skill btn btn-primary">Research</button>
+                                    <button class="btn-skill btn btn-primary">Leader</button>
+                                    <button class="btn-skill btn btn-primary">Documentation</button>
+                                    <button class="btn-skill btn btn-primary">Testing</button>
+                                    <button class="btn-skill btn btn-primary">Mechanical Design</button>
+                                    <button class="btn-skill btn btn-primary">System Design</button>
+                                    <button class="btn-skill btn btn-primary">Power Electronics</button>
+                                    <button class="btn-skill btn btn-primary">Motors</button>
+                                    <button class="btn-skill btn btn-primary">Wireless</button>
+                                    <button class="btn-skill btn btn-primary">Sensor Configuration</button>
+                                    <button class="btn-skill btn btn-primary">Raspberry Pi</button>
+                                    <button class="btn-skill btn btn-primary">ESP32</button>
+                                    <button class="btn-skill btn btn-primary">IR Sensor and Lenses</button>
+                                    <button class="btn-skill btn btn-primary">Water Testing</button>
+                                    <button class="btn-skill btn btn-primary">Impact Testing</button>
+                                    <button class="btn-skill btn btn-primary">Battery Research</button>
+                                    <button class="btn-skill btn btn-primary">Python</button>
+                                    <button class="btn-skill btn btn-primary">C/C++</button>
+                                </div>
                             </div>
                             <div class="main-project-links card-footer">
                                 <a class="" href="https://digitalcommons.wpi.edu/mqp-all/6840/" target="_blank" rel="noopener noreferrer" title="Report"><i class="fas fa-file fa-2x"></i></a>
