@@ -74,21 +74,26 @@ a {
 }
 
 #intro {
-    height: 85vh;
+    height: calc(100vh - 200px);
+    max-height: 100vh;
+    min-height: 50vh;
     /* margin-top: 100px; */
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    flex-direction:column;
+    flex-direction: column;
 }
 
 img {
-    width: 40%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain
 }
 
 .profile-img {
     text-align: center;
-    margin: 30px auto;
+    height: 30%;
+    /* margin: 30px auto; */
 }
 
 .profile-hello {
@@ -96,7 +101,7 @@ img {
 }
 
 .profile-intro {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .profile-contact {
@@ -188,9 +193,10 @@ img {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (max-height: 740px) {
     .profile-img {
         display: none;
+        height: 0%;
     }
 }
 
@@ -201,7 +207,7 @@ img {
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px), screen and (max-height: 560px), screen and (max-height: 720px) and (max-width: 500px){
     #intro {
         text-align: center;
     }
