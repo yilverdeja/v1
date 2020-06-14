@@ -15,7 +15,7 @@ h1 {
     font-weight: 700;
 }
 
-header h2{
+#intro h2{
     color: black;
 }
 
@@ -139,15 +139,7 @@ img {
     bottom: 0;
 }
 
-/* .cards-holder {
-    width: 50%; 100% smaller size screen
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-} */
-
-.experience-detail {
+.experience-tasks {
     display: none;
 }
 
@@ -169,7 +161,8 @@ img {
 }
 
 .btn-skill {
-    margin: 10px 0;
+    margin: 5px 0;
+    padding: 0 3px;
 }
 
 .btn-skill:focus, .btn-skill:active {

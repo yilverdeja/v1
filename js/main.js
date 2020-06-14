@@ -5,12 +5,14 @@ function changeImage(){
     $('#myImg').attr('src', newSrc);
 }
 
-function toggleExperienceDetail(){
-    if ($('.experience-detail').css('display') == 'none'){
-        $('.experience-detail').show();
-        $('.detail-btn').text('Collapse');
+function toggleExperience(num){
+    if ($('.experience'+num).css('display') == 'none'){
+        $('.experience'+num).show();
+        $('.summary'+num).hide();
+        $('.btnE'+num).text('Summarize');
     } else {
-        $('.experience-detail').hide();
-        $('.detail-btn').text('Expand');
+        $('.experience'+num).hide();
+        $('.summary'+num).show();
+        $('.btnE'+num).text('Show Tasks');
     }
 }
