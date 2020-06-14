@@ -49,6 +49,7 @@ a {
     width: 100%;
     text-align: center;
     background-color: white;
+    height: 120px;
 }
 
 .social-links {
@@ -74,39 +75,44 @@ a {
 }
 
 #intro {
-    height: 85vh;
-    /* margin-top: 100px; */
+    height: calc(100vh - 180px);
+    max-height: 100vh;
+    min-height: 50vh;
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    flex-direction:column;
+    flex-direction: column;
 }
 
 img {
-    width: 40%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain
 }
 
 .profile-img {
     text-align: center;
-    margin: 30px auto;
+    height: 30%;
+    margin-bottom: 30px;
 }
 
 .profile-hello {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .profile-intro {
-    margin-top: 30px;
 }
 
 .profile-contact {
-    /* text-align: center; */
     padding-top: 20px;
 }
 
 .profile-available {
     text-align: center;
-    margin-bottom: 30px;
+    color: white;
+    /* margin: 30px auto; */
+    padding: 10px;
 }
 
 .experience-date {
@@ -115,7 +121,8 @@ img {
 
 .available-icon {
     margin: auto 10px;
-    color: rgb(10, 179, 18)
+    /* color: rgb(10, 179, 18) */
+    /* color: white; */
 }
 
 .available-text {
@@ -188,9 +195,10 @@ img {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (max-height: 825px) {
     .profile-img {
         display: none;
+        height: 0%;
     }
 }
 
@@ -201,7 +209,7 @@ img {
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px), screen and (max-height: 580px), screen and (max-height: 750px) and (max-width: 900px){
     #intro {
         text-align: center;
     }
