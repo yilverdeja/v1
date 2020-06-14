@@ -184,10 +184,6 @@ img {
 
 /* At the top level of your code */
 @media screen and (max-width: 900px){
-    img {
-        width: 50%;
-    }
-
     body {
         margin-top: 10%;
         margin-bottom: 30%;
