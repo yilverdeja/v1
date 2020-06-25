@@ -147,6 +147,11 @@ img {
     bottom: 0;
 }
 
+.cards-holder {
+    width: 100%;
+    margin: auto;
+}
+
 .experience-tasks {
     display: none;
 }
@@ -222,7 +227,9 @@ img {
         margin-left: 5%;
         margin-right: 5%;
     }
+}
 
+@media screen and (max-width: 450px){
     .title-section {
         text-align: center;
     }
