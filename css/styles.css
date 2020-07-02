@@ -198,5 +198,9 @@ img {
     .title-section {
         text-align: center;
     }
+
+    .less-important-skills{
+        display: none;
+    }
 }
 
