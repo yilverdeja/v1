@@ -36,11 +36,8 @@ li, p, .description {
 }
 
 a {
-    /* text-decoration: none; */
     color: black;
 }
-
-/* ul {list-style:none;} */
 
 #footer {
     position: fixed;
@@ -102,9 +99,6 @@ img {
     margin-bottom: 1rem;
 }
 
-.profile-intro {
-}
-
 .profile-contact {
     padding-top: 20px;
 }
@@ -112,7 +106,6 @@ img {
 .profile-available {
     text-align: center;
     color: white;
-    /* margin: 30px auto; */
     padding: 10px;
 }
 
@@ -122,8 +115,6 @@ img {
 
 .available-icon {
     margin: auto 10px;
-    /* color: rgb(10, 179, 18) */
-    /* color: white; */
 }
 
 .available-text {
