@@ -1,3 +1,4 @@
+/* HTML Elements */
 body {
     font-family: 'Inconsolata', monospace;
     margin-top: 50px;
@@ -15,10 +16,6 @@ h1 {
     font-weight: 700;
 }
 
-#intro h2{
-    color: black;
-}
-
 h2{
     font-weight: 400;
     font-size: 1.5rem;
@@ -30,46 +27,23 @@ h3 {
     font-size: 1.3rem;
 }
 
-li, p, .description {
-    font-size: 1.1rem;
-    line-height: 1.5;
-}
-
 a {
     color: black;
 }
 
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    height: 120px;
-    z-index: 10;
+li, p {
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
-.social-links {
-    margin: 20px;
-    
-}
-
-.experience-company{
-    color: rgb(0, 17, 255);
-}
-
-.link {
-    margin: 0px 8px;
-    color: rgb(0, 17, 255);
-}
-
+/* Sections */
 .body-section {
     margin: 30px 0;
 }
 
-.section-body, .section-title {
-    margin: 20px 0;
+/* Intro Section */
+#intro h2{
+    color: black;
 }
 
 #intro {
@@ -109,35 +83,12 @@ img {
     padding: 10px;
 }
 
-.experience-date {
-    font-size: 0.8rem;
-}
-
-.available-icon {
-    margin: auto 10px;
-}
-
-.available-text {
-    text-decoration:underline;
-    text-decoration-style: dotted;
-    text-decoration-color: rgba(109, 109, 109, 0.274);
-}
-
+/* Experience Section */
 .row {
     padding: 10px 0 10px;
 }
 
-.card-skills {
-    border: 2px rgb(94, 101, 201) solid;
-    background-color: rgb(134, 142, 255);
-    font-size: 0.9rem;
-    padding: 3px;
-    margin: 10px 0px;
-    border-radius: 10%;
-    line-height: 2.5;
-    bottom: 0;
-}
-
+/* Main Projects Section  */
 .cards-holder {
     width: 100%;
     margin: auto;
@@ -147,12 +98,13 @@ img {
     display: none;
 }
 
+/* Projects Section */
+
 .project-links a {
     margin: 0px 5px;
 }
 
 .project-links {
-    /* text-align: center; */
     display: flex;
     justify-content: flex-end;
     margin: auto;
@@ -179,7 +131,29 @@ img {
     margin-bottom: 10px;
 }
 
-/* At the top level of your code */
+/* Footer Section */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 120px;
+    z-index: 10;
+}
+
+.social-links {
+    margin: 20px;
+    
+}
+
+.link {
+    margin: 0px 8px;
+    color: rgb(0, 17, 255);
+}
+
+/* Media Queries */
 @media screen and (max-width: 900px){
     body {
         margin-top: 10%;
