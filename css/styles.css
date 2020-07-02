@@ -50,6 +50,7 @@ a {
     text-align: center;
     background-color: white;
     height: 120px;
+    z-index: 10;
 }
 
 .social-links {
@@ -146,6 +147,11 @@ img {
     bottom: 0;
 }
 
+.cards-holder {
+    width: 100%;
+    margin: auto;
+}
+
 .experience-tasks {
     display: none;
 }
@@ -221,7 +227,9 @@ img {
         margin-left: 5%;
         margin-right: 5%;
     }
+}
 
+@media screen and (max-width: 450px){
     .title-section {
         text-align: center;
     }
