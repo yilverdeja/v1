@@ -127,6 +127,10 @@ img {
     border-style: outset !important;
 }
 
+.less-important-skills{
+    display: inline;
+}
+
 .detail-btn {
     margin-bottom: 10px;
 }
