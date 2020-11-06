@@ -16,6 +16,6 @@ function toggleExperience(num){
     } else {
         $('.experience'+num).hide();
         $('.summary'+num).show();
-        $('.btnE'+num).text('Show Tasks');
+        $('.btnE'+num).text('See Details');
     }
 }
