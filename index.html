@@ -768,9 +768,13 @@
             <a class="link" href="https://github.com/yilverdeja/v1/issues/new?title=Feedback%20for%20your%20first%20website&body=Explain%20your%20issue%20here" target="_blank" title="Feedback"><i class="fas fa-comment-dots fa-2x"></i></a>
         </div>
         <div>
-            <p>&copy; Yil Verdeja 2020, Designed by <a href="https://yve.life" target="_blank" rel="noopener noreferrer">yve.</a></p>
+            <p>&copy; Yil Verdeja <span id="footerYear"></span>, Designed by <a href="https://yve.life" target="_blank" rel="noopener noreferrer">yve.</a></p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById("footerYear").innerText = new Date().getFullYear();
+    </script>
     
 </body>
 </html>
